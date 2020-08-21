@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "NOTEPAD",
+    "description": " keep notes,write some important text.",
+    "version": "1.0",
+  
+    "browser_action": { 
+      "default_title": "images.png",
+        "default_popup": "extension.html"
+      },
+  
+    "background": {
+       "scripts": ["index.js"]
+     },
+  
+    "icons" : {
+      "128" : "images.png" 
+    }
+}
